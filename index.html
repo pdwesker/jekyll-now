@@ -1,18 +1,21 @@
----
-layout: default
----
+<html>
+<head>
+<title>Library</title>
+<meta charset="utf-8">
+</head>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<body>
+<h1><a href="index.html">Library</a></h1>
+<br>
+<h2>책</h2>
+<ul>
+<li>컴퓨터과학이 여는 세계</li>
+<li>의사를 위한 실전 인공지능</li>
+<li>이타적 인간의 출현</li>
+</ul>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<h2>강의</h2>
+<ul>
+<li><a href="lec_csnworld.html">컴퓨터과학이여는세계</a></li>
+<li><a href="lec_coya.html">코딩야학 Web1</a></li>
+</ul>
